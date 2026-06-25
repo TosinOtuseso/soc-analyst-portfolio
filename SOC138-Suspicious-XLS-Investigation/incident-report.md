@@ -24,6 +24,6 @@
 
 ---
 
-## 🔥 Key Insight
+##  Key Insight
 
 This attack demonstrates a **multi-stage execution chain typical of Office macro malware campaigns.**
