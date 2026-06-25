@@ -1,11 +1,11 @@
 # SOC138 – Suspicious XLS File Investigation
 
-## 📌 Overview
+##  Overview
 This project documents the investigation of a suspicious XLS file detected within a SOC environment. The goal was to determine whether the file was malicious, identify indicators of compromise (IOCs), and map attacker behavior using the MITRE ATT&CK framework.
 
 ---
 
-# 🎯 Objectives
+#  Objectives
 
 - Investigate suspicious XLS activity
 - Analyze potential malware behavior
@@ -15,7 +15,7 @@ This project documents the investigation of a suspicious XLS file detected withi
 
 ---
 
-# 🛠️ Tools Used
+#  Tools Used
 
 - SIEM Platform
 - VirusTotal
@@ -24,7 +24,7 @@ This project documents the investigation of a suspicious XLS file detected withi
 
 ---
 
-# 🚨 Alert Information
+#  Alert Information
 
 | Field | Value |
 |---|---|
@@ -35,7 +35,7 @@ This project documents the investigation of a suspicious XLS file detected withi
 
 ---
 
-# 🔍 Investigation Steps
+#  Investigation Steps
 
 ## 1. Initial Alert Review
 
@@ -70,7 +70,7 @@ Observed outbound traffic over HTTPS to suspicious external IP addresses.
 
 ---
 
-# 🧠 MITRE ATT&CK Mapping
+#  MITRE ATT&CK Mapping
 
 | Tactic | Technique | ATT&CK ID |
 |---|---|---|
@@ -81,7 +81,7 @@ Observed outbound traffic over HTTPS to suspicious external IP addresses.
 
 ---
 
-# ⚠️ Indicators of Compromise (IOCs)
+#  Indicators of Compromise (IOCs)
 
 | Type | Indicator |
 |---|---|
@@ -91,7 +91,7 @@ Observed outbound traffic over HTTPS to suspicious external IP addresses.
 
 ---
 
-# 🛡️ Containment Actions
+#  Containment Actions
 
 - Isolated affected workstation
 - Blocked malicious IP addresses
@@ -100,7 +100,7 @@ Observed outbound traffic over HTTPS to suspicious external IP addresses.
 
 ---
 
-# ✅ Lessons Learned
+#  Lessons Learned
 
 This investigation demonstrated how malicious Office documents can be used to execute obfuscated PowerShell payloads and establish outbound command-and-control communications. The case also reinforced the importance of monitoring user downloads and analyzing encrypted outbound traffic.
 
